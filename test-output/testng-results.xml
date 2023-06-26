@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-19T13:14:21 IST" name="Suite" finished-at="2023-06-19T13:15:41 IST" duration-ms="80068">
+  <suite started-at="2023-06-26T20:02:25 IST" name="Default suite" finished-at="2023-06-26T20:02:26 IST" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2023-06-19T13:14:21 IST" name="Test" finished-at="2023-06-19T13:15:41 IST" duration-ms="80068">
-      <class name="TestCases.CTravelTest">
-        <test-method signature="TravelMethod()[pri:0, instance:TestCases.CTravelTest@6fdbe764]" started-at="2023-06-19T13:15:04 IST" name="TravelMethod" finished-at="2023-06-19T13:15:41 IST" duration-ms="37693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TravelMethod -->
-      </class> <!-- TestCases.CTravelTest -->
-      <class name="TestCases.BHRISTest">
-        <test-method signature="BHRISmethod()[pri:0, instance:TestCases.BHRISTest@a38c7fe]" started-at="2023-06-19T13:14:31 IST" name="BHRISmethod" finished-at="2023-06-19T13:15:04 IST" duration-ms="32669" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BHRISmethod -->
-      </class> <!-- TestCases.BHRISTest -->
+    <test started-at="2023-06-26T20:02:25 IST" name="Default test" finished-at="2023-06-26T20:02:26 IST" duration-ms="66">
       <class name="TestCases.DTestNo4">
-        <test-method signature="MethodOfTest4()[pri:0, instance:TestCases.DTestNo4@51c668e3]" started-at="2023-06-19T13:15:41 IST" name="MethodOfTest4" finished-at="2023-06-19T13:15:41 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="EdgeDriverInvoke()[pri:0, instance:TestCases.DTestNo4@3527942a]" started-at="2023-06-26T20:02:21 IST" name="EdgeDriverInvoke" finished-at="2023-06-26T20:02:25 IST" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeDriverInvoke -->
+        <test-method signature="MethodOfTest4()[pri:0, instance:TestCases.DTestNo4@3527942a]" started-at="2023-06-26T20:02:25 IST" name="MethodOfTest4" finished-at="2023-06-26T20:02:25 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MethodOfTest4 -->
       </class> <!-- TestCases.DTestNo4 -->
-      <class name="TestCases.ALoginTest">
-        <test-method is-config="true" signature="EdgeDriverInvoke()[pri:0, instance:TestCases.ALoginTest@60bd273d]" started-at="2023-06-19T13:14:16 IST" name="EdgeDriverInvoke" finished-at="2023-06-19T13:14:21 IST" duration-ms="4918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- EdgeDriverInvoke -->
-        <test-method signature="loginMethod()[pri:0, instance:TestCases.ALoginTest@60bd273d]" started-at="2023-06-19T13:14:21 IST" name="loginMethod" finished-at="2023-06-19T13:14:31 IST" duration-ms="9627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginMethod -->
-      </class> <!-- TestCases.ALoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

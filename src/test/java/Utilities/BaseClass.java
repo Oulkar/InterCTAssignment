@@ -46,7 +46,7 @@ public class BaseClass {
 	   
     	//driver =new ChromeDriver();
 	    // driver =new EdgeDriver(); 
-	    System.out.println("browser is invoked"); 
+	    System.out.println("browser is invokedd"); 
 	}
 	
 	/*@AfterClass

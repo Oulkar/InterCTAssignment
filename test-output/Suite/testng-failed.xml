@@ -3,6 +3,12 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="TestCases.BHRISTest">
+        <methods>
+          <include name="EdgeDriverInvoke"/>
+          <include name="BHRISmethod"/>
+        </methods>
+      </class> <!-- TestCases.BHRISTest -->
       <class name="TestCases.CTravelTest">
         <methods>
           <include name="EdgeDriverInvoke"/>
